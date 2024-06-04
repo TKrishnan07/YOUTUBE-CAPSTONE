@@ -1,0 +1,44 @@
+# YouTube CapStone
+
+This project harvests data from YouTube and migrates it to a PostgreSQL database using a Streamlit application.
+
+## Features
+
+- Collect and store data from YouTube.
+- Migrate data to a PostgreSQL database.
+- Query the data and display results.
+
+## Requirements
+
+- Python 3.x
+- Streamlit
+- psycopg2
+- google-api-python-client
+
+## Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/YouTube-CapStone.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd YouTube-CapStone
+    ```
+3. Install dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Run the Streamlit app:
+    ```sh
+    streamlit run app.py
+    ```
+
+2. Open your browser and go to `http://localhost:8501`.
+
+## License
+
+This project is licensed under the MIT License.
