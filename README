@@ -1,12 +1,13 @@
 # YouTube CapStone
 
-This project harvests data from YouTube and migrates it to a PostgreSQL database using a Streamlit application.
+This project integrates with the YouTube Data API to fetch channel information, videos, playlists, and comments. It then stores this data into a PostgreSQL database for persistent storage and analysis.
+A Streamlit web application is provided to interact with the data, allowing users to execute predefined SQL queries and view results.
 
-## Features
-
-- Collect and store data from YouTube.
-- Migrate data to a PostgreSQL database.
-- Query the data and display results.
+Features
+- Data Harvesting: Retrieves channel information, video details, playlists, and comments using the YouTube Data API.
+- Data Warehousing: Stores fetched data into a PostgreSQL database with tables structured to accommodate various YouTube data types.
+- Streamlit Application: Provides a user-friendly interface to execute SQL queries and visualize results from the stored data.
+- Predefined Queries: Includes a set of predefined SQL queries for common data analysis tasks related to YouTube channels and videos.
 
 ## Requirements
 
@@ -34,7 +35,7 @@ This project harvests data from YouTube and migrates it to a PostgreSQL database
 
 1. Run the Streamlit app:
     ```sh
-    streamlit run app.py
+    streamlit run test.py
     ```
 
 2. Open your browser and go to `http://localhost:8501`.
